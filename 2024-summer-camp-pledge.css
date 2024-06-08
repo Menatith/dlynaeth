@@ -1,0 +1,9 @@
+:is(.user-css, .user-css-extended) .statblock {
+    background-color: var(--dl-primary);
+}
+
+:is(.user-css, .user-css-extended) .copper-party {
+    background-color: var(--dl-primary);
+    padding: 1rem;
+    border: 1px solid black;
+}
