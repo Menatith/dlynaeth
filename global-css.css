@@ -91,6 +91,17 @@ h6 {
     color: var(--dl-secondary-bright);
 }
 
+/****** QUOTEBOX ******/
+:is(.user-css, .user-css-extended) blockquote {
+    background-image: url(https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/941edb9b-c7e3-4ec1-8ced-ff869ec44011/uploads/images/3cd50aa3695d2612fa1713ce7a1b3f8d.jpeg);
+    border-left-color: var(--dl-secondary);
+}
+
+:is(.user-css, .user-css-extended) blockquote .author {
+    color: var(--dl-secondary);
+    font-family: Yrsa, sans-serif;
+}
+
 /****** ARTICLE PANEL ******/
 :is(.user-css, .user-css-extended) .article-panel {
     background-color: var(--dl-primary-dark);
@@ -104,6 +115,79 @@ h6 {
 
 :is(.user-css, .user-css-extended) .article-panel a {
     text-decoration: none;
+}
+
+/****** OTHER PANELS ******/
+:is(.user-css, .user-css-extended) .panel-body {
+    background: #d9b4a022;
+}
+
+:is(.user-css, .user-css-extended) .user-css-followers-counter-number h4 {
+    color: var(--dl-tertiary-bright);
+}
+
+/****** TOOLTIPS ******/
+.user-css-presentation .tooltipster-base .tooltipster-box,
+.user-css-presentation .tooltip-inner {
+    background-color: #1f362d;
+    opacity: 1;
+}
+
+.user-css-presentation .tooltip {
+    opacity: 1;
+}
+
+.user-css-presentation .tooltipster-base .tooltipster-content,
+.user-css-presentation .tooltip-inner {
+    font-family: Yrsa, sans-serif;
+    font-size: 2rem;
+    color: #d9c6a0;
+}
+
+.user-css-presentation .tooltipster-base .tooltipster-content,
+.user-css-presentation .tooltip-inner h2 {
+    font-weight: 500;
+    color: #d9b4a0;
+}
+
+.user-css-presentation
+    .tooltipster-base.tooltipster-top
+    .tooltipster-arrow-background,
+.user-css-presentation
+    .tooltipster-base.tooltipster-top
+    .tooltipster-arrow-border,
+.user-css-presentation .tooltip.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #1f362d;
+}
+
+.user-css-presentation
+    .tooltipster-base.tooltipster-bottom
+    .tooltipster-arrow-background,
+.user-css-presentation
+    .tooltipster-base.tooltipster-bottom
+    .tooltipster-arrow-border,
+.user-css-presentation .tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: #1f362d;
+}
+
+.user-css-presentation
+    .tooltipster-base.tooltipster-left
+    .tooltipster-arrow-background,
+.user-css-presentation
+    .tooltipster-base.tooltipster-left
+    .tooltipster-arrow-border,
+.user-css-presentation .tooltip.bs-tooltip-start .tooltip-arrow::before {
+    border-left-color: #1f362d;
+}
+
+.user-css-presentation
+    .tooltipster-base.tooltipster-right
+    .tooltipster-arrow-background,
+.user-css-presentation
+    .tooltipster-base.tooltipster-right
+    .tooltipster-arrow-border,
+.user-css-presentation .tooltip.bs-tooltip-end .tooltip-arrow::before {
+    border-right-color: #1f362d;
 }
 
 /****** MAP BOX HOMEPAGE ******/
