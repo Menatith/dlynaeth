@@ -118,7 +118,11 @@ h6 {
 }
 
 /****** OTHER PANELS ******/
-:is(.user-css, .user-css-extended) .panel-body {
+:is(.user-css, .user-css-extended) #world-category-content .panel {
+	background: #d9b4a022;
+}
+
+:is(.user-css, .user-css-extended) .followers-counter .panel {
 	background: #d9b4a022;
 }
 
