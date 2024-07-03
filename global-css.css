@@ -119,11 +119,19 @@ h6 {
 
 /****** OTHER PANELS ******/
 :is(.user-css, .user-css-extended) #world-category-content .panel {
+<<<<<<< HEAD
     background: #d9b4a022;
 }
 
 :is(.user-css, .user-css-extended) .followers-counter .panel {
     background: #d9b4a022;
+=======
+	background: #d9b4a022;
+}
+
+:is(.user-css, .user-css-extended) .followers-counter .panel {
+	background: #d9b4a022;
+>>>>>>> d3130344427a4e58bbc567ee312eb15d82d40b4c
 }
 
 :is(.user-css, .user-css-extended) .user-css-followers-counter-number h4 {
