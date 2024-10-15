@@ -237,6 +237,7 @@ h6 {
 	border: 5px solid var(--dl-tertiary);
 	box-shadow: 1px 1px 2px RGB(132, 63, 47);
 	position: relative;
+	margin-top: 1rem;
 }
 
 .user-css.tag-summer-camp-2024 .article-competition-entries h4 {
@@ -250,7 +251,7 @@ h6 {
 
 .user-css.tag-summer-camp-2024 .article-competition-entry {
 	margin-left: 110px; /* makes room for the badge */
-	color: #212529; /* font color of the prompt text */
+	color: var(--dl-text); /* font color of the prompt text */
 }
 
 /* adds the badge */
