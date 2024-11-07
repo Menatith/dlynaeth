@@ -1,0 +1,9 @@
+:is(.user-css, .user-css-extended) .stub-list {
+    border: 1px solid var(--dl-tertiary-bright);
+    border-radius: 5px;
+    background: var(--dl-panel);
+
+    h4 {
+        margin-top: 1rem;
+    }
+}
