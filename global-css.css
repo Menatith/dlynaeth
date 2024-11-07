@@ -1,216 +1,221 @@
 @font-face {
-	font-family: Yrsa;
-	font-style: normal;
-	font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/yrsa/v20/wlprgwnQFlxs_wD3CFSMYmFaaCjASONS_LU.woff2);
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-		U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122,
-		U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/yrsa/v20/wlprgwnQFlxs_wD3CFSMYmFaaCjASONS_LU.woff2);
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122,
+        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 :is(.user-css, .user-css-extended) {
-	--dl-primary: #32594b;
-	--dl-secondary: #593232;
-	--dl-tertiary: #594032;
-	--dl-primary-bright: #a0d9c4;
-	--dl-secondary-bright: #d9a1a0;
-	--dl-tertiary-bright: #d9b4a0;
-	--dl-primary-dark: #1f362d;
-	--dl-text: #d9c6a0;
-	--dl-panel: #d9b4a022;
+    --dl-primary: #32594b;
+    --dl-secondary: #593232;
+    --dl-tertiary: #594032;
+    --dl-primary-bright: #a0d9c4;
+    --dl-secondary-bright: #d9a1a0;
+    --dl-tertiary-bright: #d9b4a0;
+    --dl-primary-dark: #1f362d;
+    --dl-text: #d9c6a0;
+    --dl-panel: #d9b4a022;
 }
 
 :is(.user-css, .user-css-extended) h1,
 h2,
 h3,
 h4 {
-	font-weight: 500;
+    font-weight: 500;
 }
 
 .user-css.page,
 .user-css-extended .page {
-	background-image: none;
-	background-color: var(--dl-primary);
+    background-image: none;
+    background-color: var(--dl-primary);
 }
 
 /****** HEADINGS ******/
 :is(.user-css, .user-css-extended) .article-title {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
 }
 :is(.user-css, .user-css-extended) h1,
 h3,
 h5 {
-	color: var(--dl-secondary-bright);
+    color: var(--dl-secondary-bright);
 }
 
 :is(.user-css, .user-css-extended) h2,
 h4,
 h6 {
-	color: var(--dl-tertiary-bright);
+    color: var(--dl-tertiary-bright);
 }
 
 :is(.user-css, .user-css-extended) h2 {
-	border-bottom-color: var(--dl-tertiary-bright);
+    border-bottom-color: var(--dl-tertiary-bright);
 }
 
 /****** OTHER TYPOGRAPHY ******/
 :is(.user-css, .user-css-extended) body,
 .page {
-	font-family: Yrsa, sans-serif;
-	font-size: 16px;
-	color: var(--dl-text);
+    font-family: Yrsa, sans-serif;
+    font-size: 16px;
+    color: var(--dl-text);
 }
 
 :is(.user-css, .user-css-extended) a {
-	color: var(--dl-secondary-bright);
-	text-decoration: underline;
+    color: var(--dl-secondary-bright);
+    text-decoration: underline;
 }
 
 :is(.user-css, .user-css-extended) .artist-credits {
-	color: var(--dl-text);
+    color: var(--dl-text);
 }
 
 :is(.user-css, .user-css-extended) .author-item a {
-	color: var(--dl-tertiary-bright);
-	text-decoration: none;
+    color: var(--dl-tertiary-bright);
+    text-decoration: none;
 }
 
 /****** BUTTONS ******/
 :is(.user-css, .user-css-extended) .btn-primary {
-	background-color: var(--dl-secondary);
+    background-color: var(--dl-secondary);
 }
 
 :is(.user-css, .user-css-extended) .backtoworld a,
 .nav-tabs li.nav-item a.nav-link {
-	background-color: var(--dl-secondary);
-	color: var(--dl-text);
+    background-color: var(--dl-secondary);
+    color: var(--dl-text);
 }
 
 :is(.user-css, .user-css-extended) a i {
-	color: var(--dl-secondary-bright);
+    color: var(--dl-secondary-bright);
 }
 
 /****** QUOTEBOX ******/
 :is(.user-css, .user-css-extended) blockquote {
-	background-image: url(https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/941edb9b-c7e3-4ec1-8ced-ff869ec44011/uploads/images/3cd50aa3695d2612fa1713ce7a1b3f8d.jpeg);
-	border-left-color: var(--dl-secondary);
+    background-image: url(https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/941edb9b-c7e3-4ec1-8ced-ff869ec44011/uploads/images/3cd50aa3695d2612fa1713ce7a1b3f8d.jpeg);
+    border-left-color: var(--dl-secondary);
 }
 
 :is(.user-css, .user-css-extended) blockquote .author {
-	color: var(--dl-secondary);
-	font-family: Yrsa, sans-serif;
+    color: var(--dl-secondary);
+    font-family: Yrsa, sans-serif;
 }
 
 /****** ARTICLE PANEL ******/
 :is(.user-css, .user-css-extended) .article-panel {
-	background-color: var(--dl-primary-dark);
-	border: 1px solid var(--dl-tertiary-bright);
-	border-radius: 5px;
+    background-color: var(--dl-primary-dark);
+    border: 1px solid var(--dl-tertiary-bright);
+    border-radius: 5px;
 }
 
 :is(.user-css, .user-css-extended) .article-panel .heading {
-	color: var(--dl-secondary-bright);
+    color: var(--dl-secondary-bright);
 }
 
 :is(.user-css, .user-css-extended) .article-panel a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 /****** OTHER PANELS ******/
 :is(.user-css, .user-css-extended) #world-category-content .panel,
 .followers-counter .panel,
-.article-content-right .panel.panel-default {
-	background: var(--dl-panel);
+.article-content-right .panel.panel-default,
+.fake-sidebar.panel.panel-default {
+    background: var(--dl-panel);
+}
+
+:is(.user-css, .user-css-extended) .fake-sidebar {
+    height: fit-content;
 }
 
 :is(.user-css, .user-css-extended) .user-css-followers-counter-number h4 {
-	color: var(--dl-tertiary-bright);
+    color: var(--dl-tertiary-bright);
 }
 
 /****** COMMENT SECTION ******/
 :is(.user-css, .user-css-extended) .comment-box {
-	background: var(--dl-panel);
+    background: var(--dl-panel);
 }
 
 /****** TOOLTIPS ******/
 :is(.user-css, .user-css-extended) .text-abbreviation {
-	border-bottom: 2px dotted var(--dl-secondary-bright);
+    border-bottom: 2px dotted var(--dl-secondary-bright);
 }
 
 .user-css-presentation .tooltipster-base .tooltipster-box,
 .user-css-presentation .tooltip-inner {
-	background-color: #1f362d;
-	opacity: 1;
+    background-color: #1f362d;
+    opacity: 1;
 }
 
 .user-css-presentation .tooltip {
-	opacity: 1;
+    opacity: 1;
 }
 
 .user-css-presentation .tooltipster-base .tooltipster-content,
 .user-css-presentation .tooltip-inner {
-	font-family: Yrsa, sans-serif;
-	font-size: 2rem;
-	color: #d9c6a0;
+    font-family: Yrsa, sans-serif;
+    font-size: 2rem;
+    color: #d9c6a0;
 }
 
 .user-css-presentation .tooltipster-base .tooltipster-content h2 {
-	font-weight: 500;
-	color: #d9b4a0;
+    font-weight: 500;
+    color: #d9b4a0;
 }
 
 .user-css-presentation .tooltipster-base .tooltipster-content a {
-	font-weight: 500;
-	color: #d9a1a0;
+    font-weight: 500;
+    color: #d9a1a0;
 }
 
 .user-css-presentation
-	.tooltipster-base.tooltipster-top
-	.tooltipster-arrow-background,
+    .tooltipster-base.tooltipster-top
+    .tooltipster-arrow-background,
 .user-css-presentation
-	.tooltipster-base.tooltipster-top
-	.tooltipster-arrow-border,
+    .tooltipster-base.tooltipster-top
+    .tooltipster-arrow-border,
 .user-css-presentation .tooltip.bs-tooltip-top .tooltip-arrow::before {
-	border-top-color: #1f362d;
+    border-top-color: #1f362d;
 }
 
 .user-css-presentation
-	.tooltipster-base.tooltipster-bottom
-	.tooltipster-arrow-background,
+    .tooltipster-base.tooltipster-bottom
+    .tooltipster-arrow-background,
 .user-css-presentation
-	.tooltipster-base.tooltipster-bottom
-	.tooltipster-arrow-border,
+    .tooltipster-base.tooltipster-bottom
+    .tooltipster-arrow-border,
 .user-css-presentation .tooltip.bs-tooltip-bottom .tooltip-arrow::before {
-	border-bottom-color: #1f362d;
+    border-bottom-color: #1f362d;
 }
 
 .user-css-presentation
-	.tooltipster-base.tooltipster-left
-	.tooltipster-arrow-background,
+    .tooltipster-base.tooltipster-left
+    .tooltipster-arrow-background,
 .user-css-presentation
-	.tooltipster-base.tooltipster-left
-	.tooltipster-arrow-border,
+    .tooltipster-base.tooltipster-left
+    .tooltipster-arrow-border,
 .user-css-presentation .tooltip.bs-tooltip-start .tooltip-arrow::before {
-	border-left-color: #1f362d;
+    border-left-color: #1f362d;
 }
 
 .user-css-presentation
-	.tooltipster-base.tooltipster-right
-	.tooltipster-arrow-background,
+    .tooltipster-base.tooltipster-right
+    .tooltipster-arrow-background,
 .user-css-presentation
-	.tooltipster-base.tooltipster-right
-	.tooltipster-arrow-border,
+    .tooltipster-base.tooltipster-right
+    .tooltipster-arrow-border,
 .user-css-presentation .tooltip.bs-tooltip-end .tooltip-arrow::before {
-	border-right-color: #1f362d;
+    border-right-color: #1f362d;
 }
 
 /****** MAP BOX HOMEPAGE ******/
 :is(.user-css, .user-css-extended) .map-box {
-	background-color: var(--dl-primary-dark);
-	border: 1px solid var(--dl-tertiary-bright);
-	border-radius: 5px;
+    background-color: var(--dl-primary-dark);
+    border: 1px solid var(--dl-tertiary-bright);
+    border-radius: 5px;
 }
 
 /****** META PAGE ******/
@@ -218,51 +223,51 @@ h6 {
 .panel h4,
 .panel h5,
 .panel h6 {
-	color: var(--dl-tertiary);
+    color: var(--dl-tertiary);
 }
 
 :is(.user-css, .user-css-extended) .world-meta-menu a {
-	color: var(--dl-tertiary);
+    color: var(--dl-tertiary);
 }
 
 :is(.user-css, .user-css-extended) .world-meta-section .world-author a {
-	color: var(--dl-tertiary);
+    color: var(--dl-tertiary);
 }
 
 /****** SC 2024 article banner******/
 .user-css.tag-summer-camp-2024 .article-competition-entries {
-	background: transparent; /* background colour */
-	padding: 15px 20px;
-	border-radius: 20px; /* rounded corners */
-	border: 5px solid var(--dl-tertiary);
-	box-shadow: 1px 1px 2px RGB(132, 63, 47);
-	position: relative;
-	margin-top: 1rem;
+    background: transparent; /* background colour */
+    padding: 15px 20px;
+    border-radius: 20px; /* rounded corners */
+    border: 5px solid var(--dl-tertiary);
+    box-shadow: 1px 1px 2px RGB(132, 63, 47);
+    position: relative;
+    margin-top: 1rem;
 }
 
 .user-css.tag-summer-camp-2024 .article-competition-entries h4 {
-	color: var(--dl-secondary-bright); /* font color of the header */
-	font-weight: bold;
+    color: var(--dl-secondary-bright); /* font color of the header */
+    font-weight: bold;
 }
 
 .user-css.tag-summer-camp-2024 .article-competition-entries .btn-primary {
-	background-color: var(--dl-tertiary);
+    background-color: var(--dl-tertiary);
 }
 
 .user-css.tag-summer-camp-2024 .article-competition-entry {
-	margin-left: 110px; /* makes room for the badge */
-	color: var(--dl-text); /* font color of the prompt text */
+    margin-left: 110px; /* makes room for the badge */
+    color: var(--dl-text); /* font color of the prompt text */
 }
 
 /* adds the badge */
 .user-css.tag-summer-camp-2024 .article-competition-entry::before {
-	content: url();
-	background: url(https://www.worldanvil.com/uploads/images/053e319c4a073fa7e10474bdf57a8cb8.png);
-	background-size: 100px;
-	height: 100px;
-	width: 100px;
-	position: absolute;
-	top: 10px;
-	left: 15px;
-	z-index: 0;
+    content: url();
+    background: url(https://www.worldanvil.com/uploads/images/053e319c4a073fa7e10474bdf57a8cb8.png);
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 0;
 }
