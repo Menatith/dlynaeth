@@ -122,8 +122,13 @@ h6 {
 /****** OTHER PANELS ******/
 :is(.user-css, .user-css-extended) #world-category-content .panel,
 .followers-counter .panel,
-.article-content-right .panel.panel-default {
+.article-content-right .panel.panel-default,
+.fake-sidebar.panel.panel-default {
 	background: var(--dl-panel);
+}
+
+:is(.user-css, .user-css-extended) .fake-sidebar {
+	height: fit-content;
 }
 
 :is(.user-css, .user-css-extended) .user-css-followers-counter-number h4 {
