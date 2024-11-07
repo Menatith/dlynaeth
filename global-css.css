@@ -37,7 +37,8 @@ h4 {
 :is(.user-css, .user-css-extended) .article-title {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
 }
 :is(.user-css, .user-css-extended) h1,
 h3,
