@@ -212,11 +212,15 @@ h6 {
 	border-right-color: #1f362d;
 }
 
-/****** MAP BOX HOMEPAGE ******/
+/****** HOMEPAGE ******/
 :is(.user-css, .user-css-extended) .map-box {
 	background-color: var(--dl-primary-dark);
 	border: 1px solid var(--dl-tertiary-bright);
 	border-radius: 5px;
+}
+
+:is(.user-css, .user-css-extended).page-world-homepage .subheading {
+	font-size: 18px;
 }
 
 /****** META PAGE ******/
