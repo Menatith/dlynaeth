@@ -244,9 +244,9 @@ h6 {
 
 /****** META PAGE ******/
 :is(.user-css, .user-css-extended) .world-meta-section .panel h3,
-.panel h4,
-.panel h5,
-.panel h6 {
+.world-meta-section .panel h4,
+.world-meta-section .panel h5,
+.world-meta-section .panel h6 {
     color: var(--dl-tertiary);
 }
 
