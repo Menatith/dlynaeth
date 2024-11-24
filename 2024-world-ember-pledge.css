@@ -7,3 +7,9 @@
         margin-top: 1rem;
     }
 }
+
+@media (min-width: 1080px) {
+    :is(.user-css, .user-css-extended) img {
+        padding: 0 10rem;
+    }
+}
