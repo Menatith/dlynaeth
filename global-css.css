@@ -112,6 +112,11 @@ h6 {
     color: white !important;
 }
 
+/* forcibly hides stupid quick edit pencils */
+.user-css .world-editor-link {
+    display: none !important;
+}
+
 /****** QUOTEBOX ******/
 :is(.user-css, .user-css-extended) blockquote {
     background-image: url(https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/941edb9b-c7e3-4ec1-8ced-ff869ec44011/uploads/images/3cd50aa3695d2612fa1713ce7a1b3f8d.jpeg);
@@ -177,7 +182,7 @@ h6 {
 .user-css-presentation .tooltipster-base .tooltipster-content,
 .user-css-presentation .tooltip-inner {
     font-family: Yrsa, sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #d9c6a0;
 }
 
