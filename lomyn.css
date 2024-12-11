@@ -1,8 +1,18 @@
+.user-css .user-css-image-thumbnail img {
+    box-shadow: 0px 0px 10px 7px black;
+}
 .user-css .user-css-image-thumbnail .image-6073258 {
     border: double 25px var(--dl-text);
-    box-shadow: 0px 0px 10px 7px black;
 }
 
 .user-css-image-thumbnail div.artist-credits {
     padding-top: 1rem;
+}
+
+:is(.user-css, .user-css-extended) .img-caption {
+    font-size: 0.8em;
+    text-align: center;
+    text-wrap: balance;
+    background: var(--dl-panel);
+    border-radius: 10px;
 }

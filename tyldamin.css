@@ -1,4 +1,8 @@
 :is(.user-css, .user-css-extended) .img-cont {
-	display: flex !important;
-	align-items: center;
+    display: flex !important;
+    align-items: center;
+}
+
+:is(.user-css, .user-css-extended) .ns-crest {
+    filter: drop-shadow(0 0 0.75rem #000000);
 }
