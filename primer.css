@@ -23,3 +23,8 @@
 .user-css-image-thumbnail div.artist-credits {
     padding-top: 1rem;
 }
+
+:is(.user-css, .user-css-extended) .user-css-image-thumbnail .ns-crest {
+    box-shadow: none;
+    filter: drop-shadow(0 0 0.75rem #000000);
+}
