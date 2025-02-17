@@ -28,9 +28,9 @@
 }
 
 :is(.user-css, .user-css-extended) h1,
-h2,
-h3,
-h4 {
+:is(.user-css, .user-css-extended) h2,
+:is(.user-css, .user-css-extended) h3,
+:is(.user-css, .user-css-extended) h4 {
     font-weight: 500;
 }
 
@@ -48,14 +48,14 @@ h4 {
     margin-top: 2rem;
 }
 :is(.user-css, .user-css-extended) h1,
-h3,
-h5 {
+:is(.user-css, .user-css-extended) h3,
+:is(.user-css, .user-css-extended) h5 {
     color: var(--dl-secondary-bright);
 }
 
 :is(.user-css, .user-css-extended) h2,
-h4,
-h6 {
+:is(.user-css, .user-css-extended) h4,
+:is(.user-css, .user-css-extended) h6 {
     color: var(--dl-tertiary-bright);
 }
 
@@ -65,7 +65,7 @@ h6 {
 
 /****** OTHER TYPOGRAPHY ******/
 :is(.user-css, .user-css-extended) body,
-.page {
+:is(.user-css, .user-css-extended) .page {
     font-family: Yrsa, sans-serif;
     font-size: 16px;
     color: var(--dl-text);
@@ -92,7 +92,7 @@ h6 {
 }
 
 :is(.user-css, .user-css-extended) .backtoworld a,
-.nav-tabs li.nav-item a.nav-link {
+:is(.user-css, .user-css-extended) .nav-tabs li.nav-item a.nav-link {
     background-color: var(--dl-secondary);
     color: var(--dl-text-button);
 }
@@ -324,4 +324,17 @@ h6 {
     top: 10px;
     left: 15px;
     z-index: 0;
+}
+
+/****** WAWA Poll Widget readability/revert styling ******/
+.user-css.poll-widget {
+    color: #212529;
+
+    h4 {
+        color: #212529;
+    }
+
+    a {
+        color: #d80b07;
+    }
 }
