@@ -288,6 +288,10 @@
     color: var(--dl-tertiary);
 }
 
+:is(.user-css, .user-css-extended) .stickers-article-collection h4 {
+    color: var(--dl-tertiary-bright);
+}
+
 /****** SC 2024 article banner******/
 .user-css.tag-summer-camp-2024 .article-competition-entries {
     background: transparent; /* background colour */
