@@ -292,8 +292,9 @@
     color: var(--dl-tertiary-bright);
 }
 
-/****** SC 2024 article banner******/
-.user-css.tag-summer-camp-2024 .article-competition-entries {
+/****** SC 2024 & 2025 article banner******/
+:is(.user-css.tag-summer-camp-2024, .user-css.tag-summer-camp-2025)
+    .article-competition-entries {
     background: transparent; /* background colour */
     padding: 15px 20px;
     border-radius: 20px; /* rounded corners */
@@ -303,22 +304,28 @@
     margin-top: 1rem;
 }
 
-.user-css.tag-summer-camp-2024 .article-competition-entries h4 {
+:is(.user-css.tag-summer-camp-2024, .user-css.tag-summer-camp-2025)
+    .article-competition-entries
+    h4 {
     color: var(--dl-secondary-bright); /* font color of the header */
     font-weight: bold;
 }
 
-.user-css.tag-summer-camp-2024 .article-competition-entries .btn-primary {
+:is(.user-css.tag-summer-camp-2024, .user-css.tag-summer-camp-2025)
+    .article-competition-entries
+    .btn-primary {
     background-color: var(--dl-tertiary);
 }
 
-.user-css.tag-summer-camp-2024 .article-competition-entry {
+:is(.user-css.tag-summer-camp-2024, .user-css.tag-summer-camp-2025)
+    .article-competition-entry {
     margin-left: 110px; /* makes room for the badge */
     color: var(--dl-text); /* font color of the prompt text */
 }
 
 /* adds the badge */
-.user-css.tag-summer-camp-2024 .article-competition-entry::before {
+:is(.user-css.tag-summer-camp-2024, .user-css.tag-summer-camp-2025)
+    .article-competition-entry::before {
     content: url();
     background: url(https://www.worldanvil.com/uploads/images/053e319c4a073fa7e10474bdf57a8cb8.png);
     background-size: 100px;
