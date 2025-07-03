@@ -1,0 +1,15 @@
+.aside-box {
+    background-color: var(--dl-primary-dark);
+    padding: 0.875rem;
+    border: 1px solid var(--dl-secondary-bright);
+    border-radius: 10px;
+}
+
+.user-css .user-css-image-thumbnail .image-6788865 {
+    border: double 25px var(--dl-text);
+    box-shadow: 0px 0px 10px 7px black;
+}
+
+.user-css-image-thumbnail div.artist-credits {
+    padding-top: 1rem;
+}
