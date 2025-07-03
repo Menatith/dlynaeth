@@ -349,3 +349,14 @@
         color: #d80b07;
     }
 }
+
+/****** VARIABLES ******/
+.wip-banner {
+    border: 1px dotted var(--dl-secondary-bright);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: var(--dl-primary-dark);
+    color: var(--dl-text);
+    text-align: center;
+}
