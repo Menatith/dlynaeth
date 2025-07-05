@@ -13,3 +13,7 @@
 .user-css-image-thumbnail div.artist-credits {
     padding-top: 1rem;
 }
+
+:is(.user-css, .user-css-extended) .story blockquote {
+    font-size: 1.15rem;
+}
