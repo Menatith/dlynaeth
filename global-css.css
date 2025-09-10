@@ -164,6 +164,13 @@
     color: var(--dl-tertiary-bright);
 }
 
+:is(.user-css, .user-css-extended) .aside-box {
+    background-color: var(--dl-primary-dark);
+    padding: 0.875rem;
+    border: 1px solid var(--dl-secondary-bright);
+    border-radius: 10px;
+}
+
 /****** COMMENT SECTION ******/
 :is(.user-css, .user-css-extended) .comment-box {
     background: var(--dl-panel);
