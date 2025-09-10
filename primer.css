@@ -16,7 +16,7 @@
     box-shadow: 0px 0px 10px 7px black;
 }
 
-.user-css .user-css-image-thumbnail .image-6073258 {
+.user-css .user-css-image-thumbnail :is(.image-6073258, .image-6980558) {
     border-radius: 10px;
 }
 
@@ -27,4 +27,9 @@
 :is(.user-css, .user-css-extended) .user-css-image-thumbnail .ns-crest {
     box-shadow: none;
     filter: drop-shadow(0 0 0.75rem #000000);
+}
+
+/* Hide article block cover images */
+:is(.user-css, .user-css-extended) .article-explorer-link .cover {
+    display: none;
 }
