@@ -1,0 +1,23 @@
+.bingo-item {
+	background-color: var(--dl-secondary);
+	border: 2px solid var(--dl-tertiary-bright);
+	padding: 0.5rem;
+	height: 7rem;
+	overflow-y: auto;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+
+.bingo-column:first-child {
+	border-top-width: 2px;
+}
+
+.bingo-column:last-child {
+	border-bottom-width: 2px;
+}
+
+.descr-item {
+	padding: 0.5rem;
+	height: 7rem;
+	overflow-y: auto;
+}
