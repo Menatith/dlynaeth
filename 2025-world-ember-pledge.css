@@ -8,11 +8,11 @@
 	border-bottom-width: 1px;
 }
 
-.bingo-column:first-child {
+.bingo-item:nth-child(2) {
 	border-top-width: 2px;
 }
 
-.bingo-column:last-child {
+.bingo-item:last-of-type {
 	border-bottom-width: 2px;
 }
 
