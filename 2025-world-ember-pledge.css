@@ -23,4 +23,8 @@
 		height: 7rem;
 		overflow-y: auto;
 	}
+
+	h4 {
+		padding-bottom: 0.25rem;
+	}
 }
