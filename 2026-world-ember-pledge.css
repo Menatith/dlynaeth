@@ -1,0 +1,18 @@
+:is(.user-css, .user-css-extended) {
+	.bingo-table .table > tbody > tr > td {
+		border: 2px solid var(--dl-tertiary-bright);
+		background-color: var(--dl-primary-dark) !important;
+		color: var(--dl-text) !important;
+		text-align: center;
+		width: 7.25rem;
+		height: 7.25rem;
+	}
+
+	.bingo-table .table > tbody > tr > td > .icon {
+		padding-top: 0.25rem;
+	}
+
+	.bingo-table .table > tbody > tr > td > .icon > .checkbox-checked {
+		color: var(--dl-text) !important;
+	}
+}
